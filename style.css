@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+#nave {
+    display: flex;
+    margin-top: 95vh;
+    width: 5vw;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+}
+
+#laser {
+    position: absolute;
+    width: 1vw;
+    height: 7vh;
+    background-color: red;
+}
